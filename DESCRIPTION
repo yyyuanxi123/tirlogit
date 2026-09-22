@@ -1,0 +1,25 @@
+Package: tirlogit
+Title: Modelling choice data with and without ties in R
+Version: 1.0.0
+Authors@R: c(
+    person("Yuan", "Xi", "yuan.xi@kuleuven.be", role = c("aut", "cre")),
+    person("Michel", "Meulders",  "michel.meulders@kuleuven.be", role = "ctb"),
+    person("Martina", "Vandebroek", "martina.vandebroek@kuleuven.be", role = "ctb")
+  )
+Maintainer: Yuan Xi <yuan.xi@kuleuven.be>
+Description: Provides tools for analyzing different types of responses in Discrete Choice Experiments using the generalized rank-ordered logit model, allowing for the presence of ties in the data.
+License: GPL-3
+Encoding: UTF-8
+Imports: combinat, randtoolbox, roptim, tidyr, stats
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.1
+Author: Yuan Xi [aut, cre],
+  Michel Meulders [ctb],
+  Martina Vandebroek [ctb]
+Depends: R (>= 3.5.0)
+LazyData: true
+References: Xi, Y., Meulders, M., & Vandebroek, M. (2024). "A Unified
+        Framework for Choice Experiments: Integrating Strict
+        Preferences and Ties". Submitted.
+NeedsCompilation: no
+Packaged: 2026-07-01 15:34:57 UTC; u0150119
